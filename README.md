@@ -14,7 +14,7 @@
 
 Designing the optimal flap configuration for a fixed-wing glider normally means running a separate CFD simulation for every candidate design — each one taking significant time. With 24 flap configurations × a continuous angle-of-attack range, exhaustive simulation-based search is impractical.
 
-**The solution:** train a surrogate ML model on a fixed set of 409 simulation runs, then use that model to predict aerodynamic coefficients for any configuration in milliseconds. The optimizer can then sweep thousands of candidates instantly.
+**The solution:** train a surrogate ML model on a fixed set of 409 simulation runs, then use that model to predict aerodynamic coefficients for any configuration in milliseconds. The optimizer can then sweep thousands of candidates instantly and find out what is the optimal design configuration.
 
 ---
 
