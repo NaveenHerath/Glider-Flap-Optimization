@@ -1,11 +1,5 @@
 # ✈ Glider Flap Optimizer — ML Surrogate Model
 
-[![HF Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/YOUR_USERNAME/glider-flap-optimizer)
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5%2B-orange?style=flat-square)
-![Streamlit](https://img.shields.io/badge/Streamlit-app-red?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-
 > **Physics-informed ML surrogate model** that replaces CFD simulation calls in a glider flap design loop — predicting CL, Cm, CD in milliseconds and finding the optimal flap configuration for maximum glide ratio under full pitch-stability constraints.
 
 ---
